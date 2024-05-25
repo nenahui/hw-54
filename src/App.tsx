@@ -1,8 +1,12 @@
 import './App.css';
+import Game from './components/Game/Game';
 
-const App = () => (
-  <>
-  </>
-);
+const App = () => {
+  return (
+    <>
+      <Game/>
+    </>
+  );
+};
 
 export default App;
